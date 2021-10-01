@@ -13,7 +13,7 @@ class ProfileScreen extends StatelessWidget {
               Container(
                 child: Icon(
                   Icons.search_rounded,
-                  size: 40,
+                  size: 50,
                   color: Colors.white,
                 ),
                 margin: EdgeInsets.only(top: 50),
@@ -26,18 +26,21 @@ class ProfileScreen extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.only(left: 6),
-                margin: EdgeInsets.only(top: 45),
+                padding: EdgeInsets.only(left: 6,),
+                margin: EdgeInsets.only(top: 30),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text(
-                      'Spotix',
-                      style: TextStyle(
-                        fontFamily: 'Palanquin',
-                        fontSize: 30,
-                        fontWeight: FontWeight.w800,
+                    Container(
+                      child: Text(
+                        'Spotix',
+                        style: TextStyle(
+                          fontFamily: 'Palanquin',
+                          fontSize: 30,
+                          fontWeight: FontWeight.w800,
 
+                        ),
                       ),
                     ),
                     Container(
